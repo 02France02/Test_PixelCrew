@@ -1,0 +1,20 @@
+
+.cover_home {
+  width: 100%;
+  height: 600px;
+  background-image: url("./src/assets/img-home/1.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Gradient del titolo, aiutato preso da internet */
+.gradient-text h1:first-child {
+  background: linear-gradient(90deg, #d1f2bf, #2f6f32); /* Gradiente lineare */
+  -webkit-background-clip: text; /* Clip del background al testo per Safari/Chrome */
+  -webkit-text-fill-color: transparent; /* Rende il testo trasparente per Safari/Chrome */
+  background-clip: text; /* Clip del background al testo per Firefox */
+  color: transparent; /* Rende il testo trasparente per altri browser */
+  font-size: 5rem; /* Dimensione del testo */
+  font-weight: bold; /* Spessore del testo */
+}
