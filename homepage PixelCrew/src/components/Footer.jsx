@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <>
-      <div className="p-[24px] bg-navbarGreen ">
+      <div className="p-[44px] bg-navbarGreen ">
         <div>
           <img src={logo} alt="Logo footer" className="h-8 w-auto"/>
         </div>
