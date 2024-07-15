@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'xs': '425px',
+
+      },
       colors: {
         navbarGreen: '#216545',  
       },

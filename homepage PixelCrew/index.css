@@ -25,9 +25,9 @@ body {
   }
 }
 
-
 .cover_home {
-  width: 100%;
+  width: 100vw;
+  height: 90vh;
   background-image: url("./src/assets/img-home/1.png");
   background-position: right;
   background-repeat: no-repeat;
@@ -35,3 +35,21 @@ body {
   overflow: hidden;
 }
 
+@media (max-width: 768px) {
+  .cover_home {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 550px) {
+  .cover_home {
+    height: 50vh;
+  }
+}
+
+.planetario_background {
+  background-color: #216545;
+  background-image: url("./src/assets/Group.png");
+  background-position: center;
+
+}

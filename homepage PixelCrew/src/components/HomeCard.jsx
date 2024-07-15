@@ -18,12 +18,12 @@ const HomeCard = () => {
   return (
     <>
       {imgCards.map((item, index) => (
-        <div key={index} className=" w-[30%] mb-5">
+        <div key={index} className="w-[30%] max-xs:w-[50%]  mb-5">
           <div>
             <img src={item.img} alt="Copertina" className="rounded-[15px] mb-3" />
           </div>
-          <h3 className="font-[900] mb-3">{item.title}</h3>
-          <p className="text-[14px]">
+          <h3 className="font-[900]  mb-3 text-xl max-xs:text-[5vw] ">{item.title}</h3>
+          <p className="text-base max-xs:text-[3vw] ">
             L’azienda è certificata <b>biologica</b> ed è composta da orto, frutteto e
             pascolo, colture cerealicole, vigneto e medicaio.
           </p>
