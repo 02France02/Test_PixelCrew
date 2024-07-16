@@ -27,9 +27,9 @@ body {
 
 .cover_home {
   width: 100vw;
-  height: 107vh;
+  height: 100vh;
   background-image: url("./src/assets/img-home/1.png");
-  background-position: right;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -41,11 +41,7 @@ body {
   }
 }
 
-@media (max-width: 550px) {
-  .cover_home {
-    height: 50vh;
-  }
-}
+
 
 .planetario_background {
   background-color: #216545;
@@ -56,8 +52,6 @@ body {
 
 .news_letter {
   background-image: url("./src/assets/img-home/unsplash_QcBAZ7VREHQ.png");
-  margin-top: 10px;
   border-radius: 20px;
-  width: 100%;
-  height: 100%;
+  background-size: cover;
 }
