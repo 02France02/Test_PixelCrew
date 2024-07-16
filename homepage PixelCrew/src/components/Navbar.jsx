@@ -52,7 +52,7 @@ export default function Navbar() {
                     key={item.name}
                     to={item.href}
                     aria-current={item.current ? "page" : undefined}
-                    className=" text-white hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium overflow-ellipsis overflow-hidden"
+                    className=" text-white hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium break-words overflow-hidden "
                   >
                     {item.name}
                   </Link>

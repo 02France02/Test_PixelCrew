@@ -11,13 +11,13 @@ function App() {
         <div className="flex">
           
           
-            <div className="w-[40%]  flex justify-center max-xs:w-[100%] relative">
-              <div className="abdolute  w-[60%] gradient-text max-xs:bg-white max-xs:bg-opacity-60 rounded-xl mt-[30%]">
-                <h1 className="text-[5.5vw]   font-bold   max-xs:text-[9vw] mt-[0] text-center">
+            <div className="w-[40%]  flex justify-center max-xs:w-[100%] relative ">
+              <div className="absolute max-sm:left-[50%] w-[60%]   rounded-xl mt-[30%] max-sm:bg-white max-sm:bg-opacity-60 max-sm:w-auto ">
+                <h1 className="text-[5.5vw]  max-sm:text-[9.5vw] font-bold   max-xs:text-[9vw] mt-[0] text-center">
                   <span className="text-[#216545] ">Soulfarm</span> Agricoltura
                   Familiare
                 </h1>
-                <p className="font-bold w-[20vw] max-xs:w-[50vw] text-[1.2vw] max-xs:text-[3vw] text-center">
+                <p className="font-bold max-sm:text-[2.5vw] max-sm:w-[40vw] w-[20vw] max-xs:w-[50vw] text-[1.2vw] max-xs:text-[3vw] text-center">
                   L’azienda è certificata biologica ed è composta da orto,
                   frutteto e pascolo.
                 </p>
